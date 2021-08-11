@@ -27,8 +27,8 @@ jobs:
     - name: Build with Maven
       run: |
        mvn -B package --file pom.xml
-       cd /home/runner/work/Soumya-11-maven_java_web_example-master/Soumya-11-maven_java_web_example-master
-       ls 
+       cd /home/runner/work/Soumya-11-maven_java_web_example-master/Soumya-11-maven_java_web_example-master/target
+       ls -la
        
       
       
