@@ -30,6 +30,7 @@ jobs:
       run: |
        mvn -B package --file pom.xml
        cd D:\a\Soumya-11-maven_java_web_example-master\Soumya-11-maven_java_web_example-master\target
+       dir /s /b /o:gn
       
       
       
