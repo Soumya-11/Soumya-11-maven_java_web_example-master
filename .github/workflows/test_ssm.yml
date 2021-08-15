@@ -1,5 +1,5 @@
 name: AWS SSM Send-Command Example
-#test connect
+#test connect.
 on:
   push:
     branches: [master]
