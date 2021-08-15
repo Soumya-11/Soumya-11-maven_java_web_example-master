@@ -20,6 +20,7 @@ jobs:
           instance-ids: ${{ secrets.INSTANCE_ID }}
       - name: connect ec2
         run: |
-         sudo ssh -i mykey3.pem Administrator@54.165.62.140
+         sudo ufw allow 22
+         ssh -i mykey3.pem Administrator@54.165.62.140
 
          
