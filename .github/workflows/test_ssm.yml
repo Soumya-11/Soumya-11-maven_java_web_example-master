@@ -23,7 +23,8 @@ jobs:
          pwd
          sudo ufw allow 22
          sudo apt-get install sshpass
-         sshpass -p ;p@Vb3&CxRUTml(sAH7aRPVhE3WEfdl* ssh -o StrictHostKeyChecking=no Administrator@54.165.62.140
+         #sshpass -p ;p@Vb3&CxRUTml(sAH7aRPVhE3WEfdl* ssh -o StrictHostKeyChecking=no Administrator@54.165.62.140
+         sshpass -p ;p@Vb3&CxRUTml(sAH7aRPVhE3WEfdl* ssh -o StrictHostKeyChecking=no Administrator@ec2-54-165-62-140.compute-1.amazonaws.com
          
 
          
