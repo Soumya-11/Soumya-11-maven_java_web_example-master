@@ -21,6 +21,7 @@ jobs:
       - name: connect ec2
         run: |
          sudo ufw allow 22
-         ssh -i mykey3.pem Administrator@54.165.62.140
+         sudo apt-get install sshpass
+         sshpass -p ;p@Vb3&CxRUTml(sAH7aRPVhE3WEfdl* ssh Administrator@54.165.62.140
 
          
